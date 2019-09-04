@@ -1,5 +1,10 @@
 # greenlists
 
+***DEPRECATED (RETIRED)***
+
+*This repository is obsolete and retired (archived). This is an unmantained repository.*
+
+
 The privacy work [NSIP](http://www.nsip.edu.au) is undertaking with [A4L](https://www.a4l.org) involves authorisation to view information at the element level, and not just the object level. Such authorisation for [SIF/XML](http://specification.sifassociation.org/Implementation/AU/) requires us to be able to specify individual XML elements as authorised for access; risk is minimised by specifying only those elements which a party is authorised to see (_whitelist, greenlist_), rather than specifying those they are not authorised to see (_blacklist, redlist_). 
 
 The https://github.com/nsip/sif_privacy_controls_xslt repository exemplifies the technical approach taken to specify greenlists: a list of XPaths of the permitted elements is specified, and various filters can then be generated with that greenlist as input (including XSLT and XQuery).
